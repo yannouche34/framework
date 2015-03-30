@@ -188,6 +188,7 @@ abstract class AbstractEntity extends AbstractClass{
         try{
             $mappings = $this->getAllMappings();
             $fields = $this->getFields();
+            $mustGetId = false;
 
             $columns = [];
             $markers = [];
@@ -202,9 +203,10 @@ abstract class AbstractEntity extends AbstractClass{
             }
 
             if(!$this->{$this->getIdAttribute()}){
-                $query = 'INSERT INTO `' . $this->getTableName() . '` (`' . implode('`, `', $columns) . '`) VALUES(' . implode(', ', $markers) . ')';
+                $query = 'INSERT INTO `' . $this->getTableName() . '` (`' . implode('`, `', $columns) . '`) VALUES(' . implode(', ', $markers) . ') RETURN ' . $this->getIdAttribute();
                 $this->setDateCreation(new DateTime());
                 $values[':dateCreation'] = $this->getDateCreation()->format('Y-m-d H:i:s');
+                $mustGetId = true;
             }
             else{
                 $columnstoUpdate = [];
@@ -226,6 +228,7 @@ abstract class AbstractEntity extends AbstractClass{
             $statement = $pdo->prepare($query);
             $statement->execute($values);
 
+
             if(withRelations){
                 foreach ($this->relations as $relation){
                     if($relation->getRelationType() == Relation::One_TO_MANY){
@@ -236,6 +239,11 @@ abstract class AbstractEntity extends AbstractClass{
                         }
                     }
                 }
+            }
+
+            if($mustGetId){
+                $data = $statement->fetch();
+                $this->{$this->getIdAttribute()} = $data[0];
             }
 
         } catch (Exception $e) {

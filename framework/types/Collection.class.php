@@ -63,4 +63,8 @@ class Collection implements \IteratorAggregate {
     public function count(){
         return count($this->_content);
     }
+
+    public function clear(){
+        $this->_content = [];
+    }
 }
