@@ -3,6 +3,8 @@
 namespace Framework\Database;
 
 use \DateTime;
+use \Exception;
+
 use Framework\Database\PDOFactory;
 use Framework\Types\Collection;
 use Framework\AbstractClass\AbstractClass;

@@ -1,6 +1,8 @@
 <?php
 namespace Framework\AbstractClass;
 
+use \ReflectionClass;
+
 use Framework\Logger\Logger;
 /* 
  * To change this license header, choose License Headers in Project Properties.

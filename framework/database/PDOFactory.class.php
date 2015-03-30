@@ -19,15 +19,12 @@ class PDOFactory{
      * @return void
      */
     private function __construct($mode = PDOFactory::READ) {
-        parent::__construct();
+
     }
  
     /**
      * Méthode qui crée l'unique instance de la classe
-     * si elle n'existe pas encore puis la retourne.
-     *
-     * @param void
-     * @return Singleton
+     * si elle n'existe pas encore puis la retourne
      */
     public static function getInstance($mode = PDOFactory::READ) {
         try{

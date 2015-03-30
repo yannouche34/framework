@@ -1,7 +1,8 @@
 <?php
 namespace Framework\AbstractClass;
 
-use Framework\AbstractClass\AbstractClass;
+
+use Framework\Types\Collection;
 
 abstract class AbstractUrlGenerator extends AbstractClass{
     protected $urlList;
