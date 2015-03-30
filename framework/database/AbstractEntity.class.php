@@ -179,7 +179,7 @@ abstract class AbstractEntity extends AbstractClass{
         }
     }
 
-    public function write() {
+    public function write(withRelations = true) {
         $logger = $this->getLogger();
         $logger->debug('Write entity data into base');
         
@@ -223,6 +223,19 @@ abstract class AbstractEntity extends AbstractClass{
             $pdo = PDOFactory::getInstance(PDOFactory::WRITE);
             $statement = $pdo->prepare($query);
             $statement->execute($values);
+
+            if(withRelations){
+                foreach ($this->relations as $relation){
+                    if($relation->getRelationType() == Relation::One_TO_MANY){
+                        $entities = $relation->getAttribute();
+
+                        foreach($entites as $entity){
+                            $entity->write();
+                        }
+                    }
+                }
+            }
+
         } catch (Exception $e) {
             $logger->error($e->getMessage());
         }
