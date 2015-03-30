@@ -179,7 +179,7 @@ abstract class AbstractEntity extends AbstractClass{
         }
     }
 
-    public function write(withRelations = true) {
+    public function write($withRelations = true) {
         $logger = $this->getLogger();
         $logger->debug('Write entity data into base');
         
@@ -229,7 +229,7 @@ abstract class AbstractEntity extends AbstractClass{
                     if($relation->getRelationType() == Relation::One_TO_MANY){
                         $entities = $relation->getAttribute();
 
-                        foreach($entites as $entity){
+                        foreach($entities as $entity){
                             $entity->write();
                         }
                     }
