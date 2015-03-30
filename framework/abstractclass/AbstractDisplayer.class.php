@@ -55,12 +55,16 @@ abstract class AbstractDisplayer extends AbstractClass{
         $patterns = [
             '#\{if (.+)\}#',
             '#\{/if\}#',
-            '#\{else\}#'
+            '#\{else\}#',
+            '#\{foreach val=(.+) var=(.+) \}#',
+            '#\{/foreach\}#'
         ];
         $replacements = [
             '<?php if($1):?>',
             '<?php endif;?>',
-            '<?php else: ?>'
+            '<?php else: ?>',
+            '<?php foreach($1 as $2): ?>',
+            '<?php endforeach; ?>'
         ];
         
         $tplContent = preg_replace_callback('#\{\$(.+)\}#', [$this, 'insertVars'], $tplContent);
