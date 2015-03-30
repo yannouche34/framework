@@ -64,6 +64,10 @@ abstract class AbstractManager extends AbstractClass{
             } 
         }
     }
+
+    public function getEntity($name){
+        return $this->$name;
+    }
 }
 /* 
  * To change this license header, choose License Headers in Project Properties.
