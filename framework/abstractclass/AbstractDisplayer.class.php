@@ -88,7 +88,11 @@ abstract class AbstractDisplayer extends AbstractClass{
     private function mustCompileTemplate(){
         
     }
-    
+
+    public function assign($varName, $value){
+        $this->templateVars[$varName] = $value;
+    }
+
     abstract protected function getFile();
     abstract protected function mustGenerateFile();
 }
