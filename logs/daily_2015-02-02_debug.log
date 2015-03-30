@@ -1,0 +1,767 @@
+[DEBUG] 2015-02-02 00:28:52: Construct new Entity
+[DEBUG] 2015-02-02 00:28:52: Reading entity from base
+[DEBUG] 2015-02-02 00:28:52: Generate query
+[DEBUG] 2015-02-02 00:28:52: Getting fields for queries
+[DEBUG] 2015-02-02 00:28:52: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:28:52: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:28:52: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:28:52: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:28:52: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:28:52: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:28:52: Getting current entity relations
+[DEBUG] 2015-02-02 00:28:52: 1 relations found
+[DEBUG] 2015-02-02 00:28:52: Construct new Entity
+[DEBUG] 2015-02-02 00:28:52: Reading entity from base
+[DEBUG] 2015-02-02 00:28:52: Generate query
+[DEBUG] 2015-02-02 00:28:52: Getting fields for queries
+[DEBUG] 2015-02-02 00:28:52: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:28:52: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:28:52: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:28:52: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:28:52: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:28:52: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:28:52: Getting current entity relations
+[DEBUG] 2015-02-02 00:28:52: 1 relations found
+[DEBUG] 2015-02-02 00:28:52: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:28:52: Construct new Entity
+[DEBUG] 2015-02-02 00:28:52: Entity class: Test\AnotherTestEntity
+[DEBUG] 2015-02-02 00:28:52: Trying to get all relatives Test\AnotherTestEntitywhith id atribute: testEntity and value: 
+[DEBUG] 2015-02-02 00:28:52: Getting fields for queries
+[DEBUG] 2015-02-02 00:28:52: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:28:52: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:28:52: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:29:51: Construct new Entity
+[DEBUG] 2015-02-02 00:29:51: Reading entity from base
+[DEBUG] 2015-02-02 00:29:51: Generate query
+[DEBUG] 2015-02-02 00:29:51: Getting fields for queries
+[DEBUG] 2015-02-02 00:29:51: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:29:51: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:29:51: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:29:51: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:29:51: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:29:51: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:29:51: Getting current entity relations
+[DEBUG] 2015-02-02 00:29:51: 1 relations found
+[DEBUG] 2015-02-02 00:29:51: Construct new Entity
+[DEBUG] 2015-02-02 00:29:51: Reading entity from base
+[DEBUG] 2015-02-02 00:29:51: Generate query
+[DEBUG] 2015-02-02 00:29:51: Getting fields for queries
+[DEBUG] 2015-02-02 00:29:51: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:29:51: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:29:51: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:29:51: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:29:51: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:29:51: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:29:51: Getting current entity relations
+[DEBUG] 2015-02-02 00:29:51: 1 relations found
+[DEBUG] 2015-02-02 00:29:51: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:29:51: Construct new Entity
+[DEBUG] 2015-02-02 00:29:51: Entity class: Test\AnotherTestEntity
+[DEBUG] 2015-02-02 00:29:51: Trying to get all relatives Test\AnotherTestEntitywhith id atribute: testEntity and value: 
+[DEBUG] 2015-02-02 00:29:51: Getting fields for queries
+[DEBUG] 2015-02-02 00:29:51: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:29:51: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:29:51: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:30:31: Construct new Entity
+[DEBUG] 2015-02-02 00:30:31: Reading entity from base
+[DEBUG] 2015-02-02 00:30:31: Generate query
+[DEBUG] 2015-02-02 00:30:31: Getting fields for queries
+[DEBUG] 2015-02-02 00:30:31: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:30:31: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:30:31: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:30:31: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:30:31: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:30:31: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:30:31: Getting current entity relations
+[DEBUG] 2015-02-02 00:30:31: 1 relations found
+[DEBUG] 2015-02-02 00:30:31: Construct new Entity
+[DEBUG] 2015-02-02 00:30:31: Reading entity from base
+[DEBUG] 2015-02-02 00:30:31: Generate query
+[DEBUG] 2015-02-02 00:30:31: Getting fields for queries
+[DEBUG] 2015-02-02 00:30:31: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:30:31: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:30:31: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:30:31: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:30:31: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:30:31: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:30:31: Getting current entity relations
+[DEBUG] 2015-02-02 00:30:31: 1 relations found
+[DEBUG] 2015-02-02 00:30:31: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:30:31: Construct new Entity
+[DEBUG] 2015-02-02 00:30:31: Entity class: Test\AnotherTestEntity
+[DEBUG] 2015-02-02 00:30:31: Trying to get all relatives Test\AnotherTestEntitywhith id atribute: testEntity and value: 
+[DEBUG] 2015-02-02 00:30:31: Getting fields for queries
+[DEBUG] 2015-02-02 00:30:31: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:30:31: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:30:31: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:30:55: Construct new Entity
+[DEBUG] 2015-02-02 00:30:55: Reading entity from base
+[DEBUG] 2015-02-02 00:30:55: Generate query
+[DEBUG] 2015-02-02 00:30:55: Getting fields for queries
+[DEBUG] 2015-02-02 00:30:55: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:30:55: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:30:55: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:30:55: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:30:55: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:30:55: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:30:55: Getting current entity relations
+[DEBUG] 2015-02-02 00:30:55: 1 relations found
+[DEBUG] 2015-02-02 00:30:55: Construct new Entity
+[DEBUG] 2015-02-02 00:30:55: Reading entity from base
+[DEBUG] 2015-02-02 00:30:55: Generate query
+[DEBUG] 2015-02-02 00:30:55: Getting fields for queries
+[DEBUG] 2015-02-02 00:30:55: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:30:55: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:30:55: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:30:55: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:30:55: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:30:55: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:30:55: Getting current entity relations
+[DEBUG] 2015-02-02 00:30:55: 1 relations found
+[DEBUG] 2015-02-02 00:30:55: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:30:55: Construct new Entity
+[DEBUG] 2015-02-02 00:30:55: Entity class: Test\AnotherTestEntity
+[DEBUG] 2015-02-02 00:30:55: Trying to get all relatives Test\AnotherTestEntitywhith id atribute: testEntity and value: 
+[DEBUG] 2015-02-02 00:30:55: Getting fields for queries
+[DEBUG] 2015-02-02 00:30:55: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:30:55: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:30:55: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:31:06: Construct new Entity
+[DEBUG] 2015-02-02 00:31:06: Reading entity from base
+[DEBUG] 2015-02-02 00:31:06: Generate query
+[DEBUG] 2015-02-02 00:31:06: Getting fields for queries
+[DEBUG] 2015-02-02 00:31:06: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:31:06: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:31:06: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:31:06: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:31:06: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:31:06: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:31:06: Getting current entity relations
+[DEBUG] 2015-02-02 00:31:06: 1 relations found
+[DEBUG] 2015-02-02 00:31:06: Construct new Entity
+[DEBUG] 2015-02-02 00:31:06: Reading entity from base
+[DEBUG] 2015-02-02 00:31:06: Generate query
+[DEBUG] 2015-02-02 00:31:06: Getting fields for queries
+[DEBUG] 2015-02-02 00:31:06: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:31:06: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:31:06: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:31:06: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:31:06: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:31:06: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:31:06: Getting current entity relations
+[DEBUG] 2015-02-02 00:31:06: 1 relations found
+[DEBUG] 2015-02-02 00:31:06: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:31:06: Construct new Entity
+[DEBUG] 2015-02-02 00:31:06: Entity class: Test\AnotherTestEntity
+[DEBUG] 2015-02-02 00:31:06: Trying to get all relatives Test\AnotherTestEntitywhith id atribute: testEntity and value: 
+[DEBUG] 2015-02-02 00:31:06: Getting fields for queries
+[DEBUG] 2015-02-02 00:31:06: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:31:06: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:31:06: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:32:01: Construct new Entity
+[DEBUG] 2015-02-02 00:32:01: Reading entity from base
+[DEBUG] 2015-02-02 00:32:01: Generate query
+[DEBUG] 2015-02-02 00:32:01: Getting fields for queries
+[DEBUG] 2015-02-02 00:32:01: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:32:01: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:32:01: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:32:01: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:32:01: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:32:01: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:32:01: Getting current entity relations
+[DEBUG] 2015-02-02 00:32:01: 1 relations found
+[DEBUG] 2015-02-02 00:32:01: Construct new Entity
+[DEBUG] 2015-02-02 00:32:01: Reading entity from base
+[DEBUG] 2015-02-02 00:32:01: Generate query
+[DEBUG] 2015-02-02 00:32:01: Getting fields for queries
+[DEBUG] 2015-02-02 00:32:01: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:32:01: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:32:01: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:32:01: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:32:01: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:32:01: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:32:01: Getting current entity relations
+[DEBUG] 2015-02-02 00:32:01: 1 relations found
+[DEBUG] 2015-02-02 00:32:01: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:32:01: Construct new Entity
+[DEBUG] 2015-02-02 00:32:01: Entity class: Test\AnotherTestEntity
+[DEBUG] 2015-02-02 00:32:01: Trying to get all relatives Test\AnotherTestEntitywhith id atribute: testEntity and value: 
+[DEBUG] 2015-02-02 00:32:01: Getting fields for queries
+[DEBUG] 2015-02-02 00:32:01: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:32:01: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:32:01: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:33:15: Construct new Entity
+[DEBUG] 2015-02-02 00:33:15: Reading entity from base
+[DEBUG] 2015-02-02 00:33:15: Generate query
+[DEBUG] 2015-02-02 00:33:15: Getting fields for queries
+[DEBUG] 2015-02-02 00:33:15: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:33:15: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:33:15: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:33:15: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:33:15: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:33:15: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:33:15: Getting current entity relations
+[DEBUG] 2015-02-02 00:33:15: 1 relations found
+[DEBUG] 2015-02-02 00:33:15: Construct new Entity
+[DEBUG] 2015-02-02 00:33:15: Reading entity from base
+[DEBUG] 2015-02-02 00:33:15: Generate query
+[DEBUG] 2015-02-02 00:33:15: Getting fields for queries
+[DEBUG] 2015-02-02 00:33:15: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:33:15: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:33:15: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:33:15: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:33:15: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:33:15: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:33:15: Getting current entity relations
+[DEBUG] 2015-02-02 00:33:15: 1 relations found
+[DEBUG] 2015-02-02 00:33:15: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:33:41: Construct new Entity
+[DEBUG] 2015-02-02 00:33:41: Reading entity from base
+[DEBUG] 2015-02-02 00:33:41: Generate query
+[DEBUG] 2015-02-02 00:33:41: Getting fields for queries
+[DEBUG] 2015-02-02 00:33:41: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:33:41: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:33:41: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:33:41: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:33:41: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:33:41: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:33:41: Getting current entity relations
+[DEBUG] 2015-02-02 00:33:41: 1 relations found
+[DEBUG] 2015-02-02 00:33:41: Construct new Entity
+[DEBUG] 2015-02-02 00:33:41: Reading entity from base
+[DEBUG] 2015-02-02 00:33:41: Generate query
+[DEBUG] 2015-02-02 00:33:41: Getting fields for queries
+[DEBUG] 2015-02-02 00:33:41: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:33:41: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:33:41: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:33:41: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:33:41: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:33:41: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:33:41: Getting current entity relations
+[DEBUG] 2015-02-02 00:33:41: 1 relations found
+[DEBUG] 2015-02-02 00:33:41: Getting a One To Many entity
+[DEBUG] 2015-02-02 00:34:16: Construct new Entity
+[DEBUG] 2015-02-02 00:34:16: Reading entity from base
+[DEBUG] 2015-02-02 00:34:16: Generate query
+[DEBUG] 2015-02-02 00:34:16: Getting fields for queries
+[DEBUG] 2015-02-02 00:34:16: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:34:16: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:34:16: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:34:16: query generated: SELECT `many_to_one` AS `testEntity`, id, `bastard_column` AS `bastardColumn`, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `another_test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:34:16: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:34:16: Getting relations for the current entity
+[DEBUG] 2015-02-02 00:34:16: Getting current entity relations
+[DEBUG] 2015-02-02 00:34:16: 1 relations found
+[DEBUG] 2015-02-02 00:34:16: Construct new Entity
+[DEBUG] 2015-02-02 00:34:16: Reading entity from base
+[DEBUG] 2015-02-02 00:34:16: Generate query
+[DEBUG] 2015-02-02 00:34:16: Getting fields for queries
+[DEBUG] 2015-02-02 00:34:16: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:34:16: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:34:16: Final properties collection returned: Array
+(
+    [0] => rOneToMany
+    [1] => anotherColumn
+    [2] => id
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:34:16: query generated: SELECT rOneToMany, `another_column` AS `anotherColumn`, id, `date_creation` AS `dateCreation`, `date_modification` AS `dateModification` FROM `test` WHERE `id` = ?
+[DEBUG] 2015-02-02 00:34:16: Executing query and fetching into current object
+[DEBUG] 2015-02-02 00:34:51: Construct new Entity
+[DEBUG] 2015-02-02 00:34:51: Getting fields for queries
+[DEBUG] 2015-02-02 00:34:51: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:34:51: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:34:51: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:34:51: Construct new Entity
+[DEBUG] 2015-02-02 00:34:51: Construct new Entity
+[DEBUG] 2015-02-02 00:35:03: Construct new Entity
+[DEBUG] 2015-02-02 00:35:03: Getting fields for queries
+[DEBUG] 2015-02-02 00:35:03: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:35:03: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:35:03: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:35:03: Construct new Entity
+[DEBUG] 2015-02-02 00:35:03: Construct new Entity
+[DEBUG] 2015-02-02 00:35:33: Construct new Entity
+[DEBUG] 2015-02-02 00:35:33: Getting fields for queries
+[DEBUG] 2015-02-02 00:35:33: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:35:33: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:35:33: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:35:33: Construct new Entity
+[DEBUG] 2015-02-02 00:35:33: Construct new Entity
+[DEBUG] 2015-02-02 00:38:03: Construct new Entity
+[DEBUG] 2015-02-02 00:38:03: Getting fields for queries
+[DEBUG] 2015-02-02 00:38:03: Excluded properties: Array
+(
+    [0] => idAttribute
+    [1] => tableName
+    [2] => queries
+    [3] => fieldsMapping
+    [4] => relations
+    [5] => logger
+)
+
+[DEBUG] 2015-02-02 00:38:03: Removing One to Many relations attributes (see comments)
+[DEBUG] 2015-02-02 00:38:03: Final properties collection returned: Array
+(
+    [0] => testEntity
+    [1] => id
+    [2] => bastardColumn
+    [3] => dateCreation
+    [4] => dateModification
+)
+
+[DEBUG] 2015-02-02 00:38:03: Construct new Entity
+[DEBUG] 2015-02-02 00:38:03: Construct new Entity
