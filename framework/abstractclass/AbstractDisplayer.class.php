@@ -73,7 +73,6 @@ abstract class AbstractDisplayer extends AbstractClass{
         $matches = [];
         
         while(preg_match('#\{include path=[\'"](.+)[\'"]\}#', $tplContent, $matches)){
-            var_dump($matches);
             $currentTpl = $this->template;
             $this->template = ROOT_PATH . $matches[1];
             $newContent = $this->parseTemplate();
